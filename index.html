@@ -615,7 +615,7 @@ body[data-phase="night"] .top,body[data-phase="night"] .dock,body[data-phase="ni
   </ul></div>
 </section>
 
-<section class="win glass" id="w-projects" data-title="Projects" hidden>
+<section class="win glass" id="w-projects" data-title="Work" hidden>
   <div class="body">
     <a class="proj" style="--c:var(--blue)" href="https://github.com/edoardopanella/steering-vector-composition" target="_blank" rel="noopener"><span class="sw"></span><b>Steering vectors</b><span class="arrow" aria-hidden="true">→</span><span>Composing steering vectors in Llama-3.1-8B</span></a>
     <a class="proj" style="--c:var(--coral)" href="https://github.com/ClaudioRocca/swiss-hacks-26" target="_blank" rel="noopener"><span class="sw"></span><b>RM Compass</b><span class="arrow" aria-hidden="true">→</span><span>Real-time agentic call assistant for wealth managers · SwissHacks</span></a>
@@ -987,7 +987,7 @@ const BACKGROUNDS=[
  {g:'new',id:'neural',name:'Neural net'},{g:'new',id:'flow',name:'Gradient flow'},{g:'new',id:'topo',name:'Topographic map'},{g:'new',id:'alps',name:'Alps'},{g:'new',id:'dunes',name:'Dunes'},{g:'new',id:'arcs',name:'Rainbow arcs'},{g:'new',id:'bands',name:'70s bend'},
  {g:'old',id:'fields',name:'Colour fields'},{g:'old',id:'ribbons',name:'Aero ribbons'},{g:'old',id:'halftone',name:'Halftone'},{g:'old',id:'grid',name:'Blueprint'},{g:'old',id:'bubbles',name:'Bubbles'},{g:'old',id:'plain',name:'Plain paper'}];
 const scene=(()=>{const c=$('#scene'),x=c.getContext('2d');let W,H,t=0,party=false,mode='graph',glitch=0;
- function size(){W=innerWidth;H=innerHeight;c.width=W*devicePixelRatio;c.height=H*devicePixelRatio;x.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}size();addEventListener('resize',size);
+ function size(){W=innerWidth;H=innerHeight;const d=window.DPR=Math.min(devicePixelRatio,1.25);c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0)}size();addEventListener('resize',size);
  const blobs=[{k:'blue',c:'86,120,255',x:.15,y:.2,r:.5,s:.7},{k:'violet',c:'160,110,255',x:.75,y:.15,r:.45,s:.5},{k:'coral',c:'255,120,90',x:.88,y:.75,r:.45,s:.6},{k:'sun',c:'255,190,70',x:.35,y:.95,r:.4,s:.8},{k:'aqua',c:'60,210,220',x:.55,y:.5,r:.35,s:.9},{k:'lime',c:'170,225,70',x:.05,y:.75,r:.32,s:.65}];
  const COLS=[C.blue,C.violet,C.coral,C.aqua,C.sun,C.lime];
  const P=[...Array(48)].map((_,i)=>({x:Math.random(),y:Math.random(),vx:(Math.random()-.5)*.00012,vy:(Math.random()-.5)*.00012,c:i%5==0?COLS[i%6]:null}));
@@ -1152,8 +1152,8 @@ const scene=(()=>{const c=$('#scene'),x=c.getContext('2d');let W,H,t=0,party=fal
     if(se==='autumn'){x.fillStyle=[C.coral,C.sun,mixHex(C.coral,'#000000',.2)][i%3];x.beginPath();x.ellipse(0,0,7*p.s,3.5*p.s,0,0,7);x.fill()}else{x.fillStyle=['#f6c6d4','#fbe0e8','#f1b2c4'][i%3];x.beginPath();x.ellipse(0,0,4*p.s,2.6*p.s,0,0,7);x.fill()}x.restore()})}}}
  const DRAW={graph:()=>{fields();graph()},fields:()=>fields(.6),ribbons,contours,halftone,grid,hills,bubbles,stripes,plain,neural,flow,topo,alps,sea,dunes,arcs,bands,lake,lighthouse,town,ski,sunset,balloons};
  (function f(){if(!reduce)t+=.004;ENV.skyY=null;ENV.sun=null;ENV.beam=null;x.fillStyle=C.paper;x.fillRect(0,0,W,H);(DRAW[mode]||DRAW.graph)();if(['sea','lighthouse','ski'].includes(mode))atmosphere();trail();
-  if(glitch){const d=devicePixelRatio;for(let k=0;k<10;k++){const sy=Math.random()*H,h=4+Math.random()*50,dx=(Math.random()-.5)*90*glitch;x.drawImage(c,0,sy*d,c.width,h*d,dx,sy,W,h)}x.fillStyle=A(COLS[Math.floor(Math.random()*6)],.12*glitch);x.fillRect(0,0,W,H)}
-  requestAnimationFrame(f)})();
+  if(glitch){const d=window.DPR||1;for(let k=0;k<10;k++){const sy=Math.random()*H,h=4+Math.random()*50,dx=(Math.random()-.5)*90*glitch;x.drawImage(c,0,sy*d,c.width,h*d,dx,sy,W,h)}x.fillStyle=A(COLS[Math.floor(Math.random()*6)],.12*glitch);x.fillRect(0,0,W,H)}
+  setTimeout(()=>requestAnimationFrame(f),document.body.classList.contains('dragging')?250:20)})();
  return{set party(v){party=v},set mode(m){mode=m},get mode(){return mode},set glitch(v){glitch=v},
   recolour(mix){blobs.forEach((b,i)=>b.c=RGB(C[mix?mix[i]:b.k]));['blue','violet','coral','aqua','sun','lime'].forEach((k,i)=>COLS[i]=C[k]);P.forEach((p,i)=>{if(p.c)p.c=COLS[i%6]})}};})();
 
@@ -1161,7 +1161,7 @@ const scene=(()=>{const c=$('#scene'),x=c.getContext('2d');let W,H,t=0,party=fal
 const APPS=[
  {id:'w-about',g:'about',c:C.blue,label:'About me',x:.44,y:110,w:520},
  {id:'w-research',g:'research',c:C.violet,label:'Research',x:.3,y:90,w:560},
- {id:'w-projects',g:'work',c:C.coral,label:'Projects',x:.4,y:120,w:540},
+ {id:'w-projects',g:'work',c:C.coral,label:'My Work',x:.4,y:120,w:540},
  {id:'w-cv',g:'cv',c:C.aqua,label:'CV.doc',x:.33,y:100,w:560},
  {id:'w-arcade',g:'arcade',c:C.sun,label:'Arcade',x:.5,y:96,w:500},
  {id:'w-read',g:'read',c:C.coral,label:'Reading',x:.42,y:130,w:540},
@@ -1190,9 +1190,9 @@ APPS.forEach(a=>{
  if(a.id==='w-mail'||a.id==='w-game'){const s=document.createElement('span');s.className='dsep';tb.append(s)}tb.append(t);a.t=t;
  bar.querySelector('.x').onclick=()=>{w.hidden=true;sync();if(a.id==='w-tv')stopVideo()};
  w.addEventListener('pointerdown',()=>front(w));
- let d=null;bar.addEventListener('pointerdown',e=>{if(mobile()||e.target.closest('button'))return;d=[e.clientX-w.offsetLeft,e.clientY-w.offsetTop];bar.setPointerCapture(e.pointerId);bar.style.cursor='grabbing'});
+ let d=null;bar.addEventListener('pointerdown',e=>{if(mobile()||e.target.closest('button'))return;d=[e.clientX-w.offsetLeft,e.clientY-w.offsetTop];bar.setPointerCapture(e.pointerId);bar.style.cursor='grabbing';document.body.classList.add('dragging')});
  bar.addEventListener('pointermove',e=>{if(!d)return;w._moved=true;w.style.left=Math.max(-w.offsetWidth+100,Math.min(innerWidth-80,e.clientX-d[0]))+'px';w.style.top=Math.max(60,Math.min(innerHeight-80,e.clientY-d[1]))+'px'});
- bar.addEventListener('pointerup',()=>{d=null;bar.style.cursor=''});
+ bar.addEventListener('pointerup',()=>{d=null;bar.style.cursor='';document.body.classList.remove('dragging')});
  w.style.left=Math.max(16,Math.min(innerWidth*a.x,innerWidth-a.w-120))+'px';w.style.top=Math.max(76,Math.min(a.y,innerHeight-480))+'px';
 });
 document.addEventListener('click',e=>{const b=e.target.closest('[data-open]');if(b)launch(b.dataset.open)});
