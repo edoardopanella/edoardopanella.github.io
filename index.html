@@ -577,7 +577,7 @@ body[data-phase="night"] .top,body[data-phase="night"] .dock,body[data-phase="ni
     <span class="mono">Now</span>
     <ul>
       <li><i style="--c:var(--blue)"></i><span>Learning rules without backprop · Bocconi</span></li>
-      <li><i style="--c:var(--orange)"></i><span>ML for TCS · Bocconi</span></li>
+      <li><i style="--c:var(--coral)"></i><span>ML for TCS · Bocconi</span></li>
       <li><i style="--c:var(--violet)"></i><span>Cognitive Cartography · MIT CSAIL</span></li>
     </ul>
   </section>
@@ -1453,6 +1453,19 @@ const lose=()=>[523,440,349].forEach((f,k)=>tone(f,.6,'sine',.06,k*.2));
 
 /* ---------- culture: edit these to update the page ---------- */
 const BOOK={title:'Il Gattopardo',author:'Giuseppe Tomasi di Lampedusa',note:'A sentence or two on why you picked it up and what it is doing to your head.',page:213,pages:269,placeholder:false};
+/* ---------- Reading: other books I liked. Add, remove or reorder entries here. ---------- */
+const SHELF=[
+ {title:'Il Visconte Dimezzato',author:'Italo Calvino',note:''},
+ {title:'The Crocodile',author:'Fëdor Dostoevskij',note:''},
+ {title:'Frankenstein; or, The Modern Prometheus',author:'Mary Shelley',note:''}
+];
+(()=>{if(!SHELF.length)return;
+ const css=document.createElement('style');css.textContent=`.shelf{margin-top:20px;padding-top:14px;border-top:1px solid rgba(13,16,20,.08)}.shelf ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:10px}.shelf li{display:grid;grid-template-columns:8px 1fr;gap:12px;align-items:start}.shelf li i{height:100%;min-height:34px;border-radius:2px 4px 4px 2px;background:var(--c)}.shelf b{font:italic 400 19px/1.15 var(--f-serif);color:var(--ink)}.shelf small{display:block;font:500 10.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-top:2px}.shelf p{margin:3px 0 0!important;font-size:13.5px}`;document.head.append(css);
+ const cols=['var(--coral)','var(--blue)','var(--sun)','var(--violet)','var(--lime)','var(--aqua)'];
+ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const sec=document.createElement('div');sec.className='shelf';
+ sec.innerHTML=`<span class="mono">Also on my shelf</span><ul>${SHELF.map((b,i)=>`<li><i style="--c:${cols[i%6]}"></i><div><b>${esc(b.title)}</b><small>${esc(b.author)}</small>${b.note?`<p>${esc(b.note)}</p>`:''}</div></li>`).join('')}</ul>`;
+ document.querySelector('#w-read .body').append(sec)})();
 /* Film data mirrors letterboxd.com/edostratocaster (diary RSS + profile favourites). Images load from Letterboxd's CDN on the live site;
    if an image can't load (as in this preview) a coloured title card shows instead. */
 const LB='https://a.ltrbxd.com/resized/';
