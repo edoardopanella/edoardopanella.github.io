@@ -1470,7 +1470,9 @@ const FILMS={
   {t:'The Perfect Neighbor',y:2025,r:4,img:LB+'film-poster/1/2/8/4/1/5/7/1284157-the-perfect-neighbor-2025-0-600-0-900-crop.jpg?v=f3b31c60df'},
   {t:'The Tale of King Crab',y:2021,r:5,img:LB+'film-poster/7/4/8/9/8/2/748982-the-tale-of-king-crab-0-600-0-900-crop.jpg?v=ecbeccc6e9'}]};
 /* Soundtrack: add YouTube video ids here. On github.io the first one embeds and plays; in this preview it opens on YouTube. */
-const PLAYLIST=[{id:'-Ns5dLwoMuc',artist:'Autechre',title:'Lowride'}];
+const PLAYLIST=[{id:'-Ns5dLwoMuc',artist:'Autechre',title:'Lowride'},
+                {id:'InFbBlpDTfQ', artist: 'Dj Shadow', title:'Midnight In A Perfect World'}
+];
 
 function renderDiary(){
  $('#diary').innerHTML=FILMS.diary.slice(0,8).map(f=>{const h=hue(f.t);return `<a href="${f.url||'https://letterboxd.com/edostratocaster/'}" target="_blank" rel="noopener"><div class="poster" style="background:linear-gradient(160deg,hsl(${h} 85% 62%),hsl(${(h+50)%360} 70% 30%))"><b>${f.t}</b><span>${f.y||''}</span>${f.img?imgTag(f.img):''}</div><small>${f.t}</small><span class="stars">${stars(f.r)}</span></a>`}).join('');
