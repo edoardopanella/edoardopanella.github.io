@@ -1,1 +1,8 @@
-[]
+[
+    {"src": "photos/grad.JPG", "caption": "Graduating with my best friends", "place": "Milano", "date": "2026"},
+    {"src": "photos/sailing.jpeg", "caption": "Sailing across Croatia", "place": "Adriatic Sea", "date": "2023"},
+    {"src": "photos/soflo.jpeg",  "caption": "Just me in South Florida", "place": "Florida", "date": "2021"},
+    {"src": "photos/swisshacks.JPG", "caption": "Me and the team at SwissHacks 2026", "place": "Zurich", "date": "2026"},
+    {"src": "photos/udine.JPG", "caption": "Me and my best friend on stage", "place": "Udine", "date": "2021"},
+    {"src": "photos/wisco.JPG", "caption": "Me in Wisconsin", "place": "Madison, Wisconsin", "date": "2025"}
+]
