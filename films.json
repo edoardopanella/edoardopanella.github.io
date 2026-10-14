@@ -1,0 +1,54 @@
+{
+ "updated": "2026-10-13T00:00:00Z",
+ "note": "Seed data. The GitHub Action overwrites this daily from the Letterboxd RSS feed.",
+ "diary": [
+  {
+   "t": "Digger",
+   "y": 2026,
+   "r": 4.5,
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95"
+  },
+  {
+   "t": "Married to the Mob",
+   "y": 1988,
+   "r": 4.0,
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/0/3/3/2/50332-married-to-the-mob-0-600-0-900-crop.jpg?v=c29b9f9808"
+  },
+  {
+   "t": "NAZA",
+   "y": 2026,
+   "r": 5.0,
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/6/2/0/2/0/6/1620206-naza-0-600-0-900-crop.jpg?v=c34667d5c5"
+  },
+  {
+   "t": "Spider-Man 2",
+   "y": 2004,
+   "r": 3.5,
+   "img": "https://a.ltrbxd.com/resized/sm/upload/pq/mi/kb/ck/7JtMVM58MnzxWeyubzLpXBiVnDC-0-600-0-900-crop.jpg?v=c5f2675b28"
+  },
+  {
+   "t": "Revenge of the Sith",
+   "y": 2005,
+   "r": 5.0,
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/0/7/0/9/50709-star-wars-episode-iii-revenge-of-the-sith-0-600-0-900-crop.jpg?v=cdb8caab10"
+  },
+  {
+   "t": "The Odyssey",
+   "y": 2026,
+   "r": 3.5,
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c"
+  },
+  {
+   "t": "The Perfect Neighbor",
+   "y": 2025,
+   "r": 4.0,
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/1/5/7/1284157-the-perfect-neighbor-2025-0-600-0-900-crop.jpg?v=f3b31c60df"
+  },
+  {
+   "t": "The Tale of King Crab",
+   "y": 2021,
+   "r": 5.0,
+   "img": "https://a.ltrbxd.com/resized/film-poster/7/4/8/9/8/2/748982-the-tale-of-king-crab-0-600-0-900-crop.jpg?v=ecbeccc6e9"
+  }
+ ]
+}
