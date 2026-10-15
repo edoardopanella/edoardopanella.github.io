@@ -1,54 +1,405 @@
 {
- "updated": "2026-10-13T00:00:00Z",
- "note": "Seed data. The GitHub Action overwrites this daily from the Letterboxd RSS feed.",
+ "updated": "2026-10-15T10:01:15.945Z",
  "diary": [
   {
    "t": "Digger",
    "y": 2026,
    "r": 4.5,
+   "date": "2026-10-11",
+   "url": "https://letterboxd.com/edostratocaster/film/digger-2026/",
    "img": "https://a.ltrbxd.com/resized/film-poster/1/1/3/2/6/8/8/1132688-digger-2026-0-600-0-900-crop.jpg?v=81ec883a95"
   },
   {
    "t": "Married to the Mob",
    "y": 1988,
-   "r": 4.0,
+   "r": 4,
+   "date": "2026-10-10",
+   "url": "https://letterboxd.com/edostratocaster/film/married-to-the-mob/",
    "img": "https://a.ltrbxd.com/resized/film-poster/5/0/3/3/2/50332-married-to-the-mob-0-600-0-900-crop.jpg?v=c29b9f9808"
   },
   {
    "t": "NAZA",
    "y": 2026,
-   "r": 5.0,
+   "r": 5,
+   "date": "2026-09-30",
+   "url": "https://letterboxd.com/edostratocaster/film/naza/",
    "img": "https://a.ltrbxd.com/resized/film-poster/1/6/2/0/2/0/6/1620206-naza-0-600-0-900-crop.jpg?v=c34667d5c5"
   },
   {
    "t": "Spider-Man 2",
    "y": 2004,
    "r": 3.5,
+   "date": "2026-09-05",
+   "url": "https://letterboxd.com/edostratocaster/film/spider-man-2/",
    "img": "https://a.ltrbxd.com/resized/sm/upload/pq/mi/kb/ck/7JtMVM58MnzxWeyubzLpXBiVnDC-0-600-0-900-crop.jpg?v=c5f2675b28"
   },
   {
-   "t": "Revenge of the Sith",
+   "t": "Star Wars: Episode III – Revenge of the Sith",
    "y": 2005,
-   "r": 5.0,
+   "r": 5,
+   "date": "2026-08-30",
+   "url": "https://letterboxd.com/edostratocaster/film/star-wars-episode-iii-revenge-of-the-sith/",
    "img": "https://a.ltrbxd.com/resized/film-poster/5/0/7/0/9/50709-star-wars-episode-iii-revenge-of-the-sith-0-600-0-900-crop.jpg?v=cdb8caab10"
+  },
+  {
+   "t": "Star Wars: Episode II – Attack of the Clones",
+   "y": 2002,
+   "r": 0,
+   "date": "2026-08-30",
+   "url": "https://letterboxd.com/edostratocaster/film/star-wars-episode-ii-attack-of-the-clones/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/0/7/1/0/50710-star-wars-episode-ii-attack-of-the-clones-0-600-0-900-crop.jpg?v=cdb8caab10"
+  },
+  {
+   "t": "Star Wars: Episode I – The Phantom Menace",
+   "y": 1999,
+   "r": 0,
+   "date": "2026-08-30",
+   "url": "https://letterboxd.com/edostratocaster/film/star-wars-episode-i-the-phantom-menace/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/0/7/1/1/50711-star-wars-episode-i-the-phantom-menace-0-600-0-900-crop.jpg?v=cdb8caab10"
+  },
+  {
+   "t": "Spider-Man",
+   "y": 2002,
+   "r": 0,
+   "date": "2026-08-27",
+   "url": "https://letterboxd.com/edostratocaster/film/spider-man/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/1/5/6/1/51561-spider-man-0-600-0-900-crop.jpg?v=a7394840f4"
+  },
+  {
+   "t": "Wedding Crashers",
+   "y": 2005,
+   "r": 0,
+   "date": "2026-08-21",
+   "url": "https://letterboxd.com/edostratocaster/film/wedding-crashers/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/4/7/0/7/8/47078-wedding-crashers-0-600-0-900-crop.jpg?v=f3b8dde858"
+  },
+  {
+   "t": "Mamma Mia!",
+   "y": 2008,
+   "r": 0,
+   "date": "2026-08-20",
+   "url": "https://letterboxd.com/edostratocaster/film/mamma-mia/",
+   "img": "https://a.ltrbxd.com/resized/sm/upload/10/5l/wu/jl/gOm2iMMbC6EonrFzmSQ8xvCa4Ei.jpg-0-600-0-900-crop.jpg?v=e49de6f770"
+  },
+  {
+   "t": "The Perfect Neighbor",
+   "y": 2025,
+   "r": 4,
+   "date": "2026-08-19",
+   "url": "https://letterboxd.com/edostratocaster/film/the-perfect-neighbour/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/1/5/7/1284157-the-perfect-neighbor-2025-0-600-0-900-crop.jpg?v=f3b31c60df"
+  },
+  {
+   "t": "American Murder: The Family Next Door",
+   "y": 2020,
+   "r": 3,
+   "date": "2026-08-17",
+   "url": "https://letterboxd.com/edostratocaster/film/american-murder-the-family-next-door/",
+   "img": "https://a.ltrbxd.com/resized/sm/upload/nz/ls/9j/bx/american%20m-0-600-0-900-crop.jpg?v=890d4489a7"
   },
   {
    "t": "The Odyssey",
    "y": 2026,
    "r": 3.5,
+   "date": "2026-07-30",
+   "url": "https://letterboxd.com/edostratocaster/film/the-odyssey-2026/",
    "img": "https://a.ltrbxd.com/resized/film-poster/1/2/5/5/3/9/4/1255394-the-odyssey-2026-0-600-0-900-crop.jpg?v=1eed046d0c"
-  },
-  {
-   "t": "The Perfect Neighbor",
-   "y": 2025,
-   "r": 4.0,
-   "img": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/1/5/7/1284157-the-perfect-neighbor-2025-0-600-0-900-crop.jpg?v=f3b31c60df"
   },
   {
    "t": "The Tale of King Crab",
    "y": 2021,
-   "r": 5.0,
+   "r": 5,
+   "date": "2026-07-30",
+   "url": "https://letterboxd.com/edostratocaster/film/the-tale-of-king-crab/",
    "img": "https://a.ltrbxd.com/resized/film-poster/7/4/8/9/8/2/748982-the-tale-of-king-crab-0-600-0-900-crop.jpg?v=ecbeccc6e9"
+  },
+  {
+   "t": "Is This Thing On?",
+   "y": 2025,
+   "r": 0,
+   "date": "2026-07-26",
+   "url": "https://letterboxd.com/edostratocaster/film/is-this-thing-on-2025/",
+   "img": "https://a.ltrbxd.com/resized/sm/upload/cu/cp/cr/2m/o0uOCDLZEwlForZ5Bf3IeBwlPLd-0-600-0-900-crop.jpg?v=371b64c948"
+  },
+  {
+   "t": "Sirāt",
+   "y": 2025,
+   "r": 3,
+   "date": "2026-07-05",
+   "url": "https://letterboxd.com/edostratocaster/film/sirat-2025/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/7/7/7/1037777-sirat-2025-0-600-0-900-crop.jpg?v=1660cb1f29"
+  },
+  {
+   "t": "Obsession",
+   "y": 2025,
+   "r": 4.5,
+   "date": "2026-06-20",
+   "url": "https://letterboxd.com/edostratocaster/film/obsession-2025/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/2/3/4/4/7/2/1234472-obsession-2025-2-0-600-0-900-crop.jpg?v=cff6fc00b6"
+  },
+  {
+   "t": "The Last One for the Road",
+   "y": 2025,
+   "r": 5,
+   "date": "2026-06-01",
+   "url": "https://letterboxd.com/edostratocaster/film/the-last-one-for-the-road/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/3/3/9/0/6/3/1339063-the-last-one-for-the-road-0-600-0-900-crop.jpg?v=09060ee38b"
+  },
+  {
+   "t": "Sinners",
+   "y": 2025,
+   "r": 3,
+   "date": "2026-04-13",
+   "url": "https://letterboxd.com/edostratocaster/film/sinners-2025/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-600-0-900-crop.jpg?v=5996b7d555"
+  },
+  {
+   "t": "One Battle After Another",
+   "y": 2025,
+   "r": 5,
+   "date": "2026-04-06",
+   "url": "https://letterboxd.com/edostratocaster/film/one-battle-after-another/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-600-0-900-crop.jpg?v=d27c4cc662"
+  },
+  {
+   "t": "A Minecraft Movie",
+   "y": 2025,
+   "r": 5,
+   "date": "2026-04-06",
+   "url": "https://letterboxd.com/edostratocaster/film/a-minecraft-movie/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/9/1/854691-a-minecraft-movie-0-600-0-900-crop.jpg?v=074e7fed9e"
+  },
+  {
+   "t": "Good Morning",
+   "y": 1959,
+   "r": 4.5,
+   "date": "2026-03-08",
+   "url": "https://letterboxd.com/edostratocaster/film/good-morning/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/5/8/6/4/55864-good-morning-0-600-0-900-crop.jpg?v=1793183742"
+  },
+  {
+   "t": "Bugonia",
+   "y": 2025,
+   "r": 5,
+   "date": "2026-03-07",
+   "url": "https://letterboxd.com/edostratocaster/film/bugonia/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/6/2/5/4/0/0/625400-bugonia-0-600-0-900-crop.jpg?v=4c6649150e"
+  },
+  {
+   "t": "Mortal World",
+   "y": 2018,
+   "r": 4,
+   "date": "2026-03-06",
+   "url": "https://letterboxd.com/edostratocaster/film/mortal-world/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/4/2/9/6/3/6/429636-mortal-world-0-600-0-900-crop.jpg?v=e40a5e5eb8"
+  },
+  {
+   "t": "Civil War",
+   "y": 2024,
+   "r": 5,
+   "date": "2026-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/civil-war-2024/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/3/4/6/5/6/834656-civil-war-0-600-0-900-crop.jpg?v=aefec33dbe"
+  },
+  {
+   "t": "Challengers",
+   "y": 2024,
+   "r": 3,
+   "date": "2025-03-26",
+   "url": "https://letterboxd.com/edostratocaster/film/challengers/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/4/2/3/0/1/842301-challengers-0-600-0-900-crop.jpg?v=a7cd63cbef"
+  },
+  {
+   "t": "Smile",
+   "y": 2022,
+   "r": 4,
+   "date": "2025-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/smile-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/7/9/3/8/8/3/793883-smile-0-600-0-900-crop.jpg?v=54791d7575"
+  },
+  {
+   "t": "Babylon",
+   "y": 2022,
+   "r": 3.5,
+   "date": "2025-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/babylon-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/4/2/7/7/3/542773-babylon-0-600-0-900-crop.jpg?v=aab2f01937"
+  },
+  {
+   "t": "Marguerite's Theorem",
+   "y": 2023,
+   "r": 3,
+   "date": "2024-12-26",
+   "url": "https://letterboxd.com/edostratocaster/film/marguerites-theorem/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/6/4/0/0/7/864007-marguerite-s-theorem-0-600-0-900-crop.jpg?v=16719fba02"
+  },
+  {
+   "t": "The Substance",
+   "y": 2024,
+   "r": 4.5,
+   "date": "2024-11-16",
+   "url": "https://letterboxd.com/edostratocaster/film/the-substance/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/3/8/1/4/0/838140-the-substance-0-600-0-900-crop.jpg?v=ab9e1072f8"
+  },
+  {
+   "t": "Priscilla",
+   "y": 2023,
+   "r": 2,
+   "date": "2024-04-20",
+   "url": "https://letterboxd.com/edostratocaster/film/priscilla/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/9/1/9/1/2/1/919121-priscilla-0-600-0-900-crop.jpg?v=d9ff2d4c5e"
+  },
+  {
+   "t": "Meet Me in the Bathroom",
+   "y": 2022,
+   "r": 4.5,
+   "date": "2024-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/meet-me-in-the-bathroom/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/1/9/8/4/9/819849-meet-me-in-the-bathroom-0-600-0-900-crop.jpg?v=9c4c3098b5"
+  },
+  {
+   "t": "La Chimera",
+   "y": 2023,
+   "r": 3.5,
+   "date": "2024-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/la-chimera/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/7/5/2/6/2/6/752626-la-chimera-0-600-0-900-crop.jpg?v=8f8cf76e33"
+  },
+  {
+   "t": "Poor Things",
+   "y": 2023,
+   "r": 5,
+   "date": "2024-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/poor-things-2023/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/7/1/0/3/5/2/710352-poor-things-0-600-0-900-crop.jpg?v=a0f2ee9a0e"
+  },
+  {
+   "t": "The Menu",
+   "y": 2022,
+   "r": 3,
+   "date": "2024-01-26",
+   "url": "https://letterboxd.com/edostratocaster/film/the-menu-2022/1/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/2/1/3/2/3/521323-the-menu-0-600-0-900-crop.jpg?v=d00a0d03a8"
+  },
+  {
+   "t": "Kinds of Kindness",
+   "y": 2024,
+   "r": 3,
+   "date": "2024-01-25",
+   "url": "https://letterboxd.com/edostratocaster/film/kinds-of-kindness/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/9/2/8/2/6/1/928261-kinds-of-kindness-0-600-0-900-crop.jpg?v=719ff64e2b"
+  },
+  {
+   "t": "Amsterdam",
+   "y": 2022,
+   "r": 4,
+   "date": "2023-12-26",
+   "url": "https://letterboxd.com/edostratocaster/film/amsterdam-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/8/9/3/1/7/589317-amsterdam-2022-0-600-0-900-crop.jpg?v=dc2d474198"
+  },
+  {
+   "t": "My Summer with the Shark",
+   "y": 2023,
+   "r": 4,
+   "date": "2023-10-26",
+   "url": "https://letterboxd.com/edostratocaster/film/my-summer-with-the-shark/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/9/5/1/8/4/6/951846-my-summer-with-the-shark-0-600-0-900-crop.jpg?v=e216749c18"
+  },
+  {
+   "t": "Barbie",
+   "y": 2023,
+   "r": 5,
+   "date": "2023-07-26",
+   "url": "https://letterboxd.com/edostratocaster/film/barbie/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/2/7/7/0/6/4/277064-barbie-0-600-0-900-crop.jpg?v=1b83dc7a71"
+  },
+  {
+   "t": "All Quiet on the Western Front",
+   "y": 2022,
+   "r": 4.5,
+   "date": "2023-05-26",
+   "url": "https://letterboxd.com/edostratocaster/film/all-quiet-on-the-western-front-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/6/5/3/0/16530-all-quiet-on-the-western-front-0-600-0-900-crop.jpg?v=bff4d496a1"
+  },
+  {
+   "t": "The Abandoned",
+   "y": 2022,
+   "r": 4,
+   "date": "2023-05-26",
+   "url": "https://letterboxd.com/edostratocaster/film/the-abandoned-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/9/0/7/0/2/6/907026-the-abandoned-2022-0-600-0-900-crop.jpg?v=db53f2571d"
+  },
+  {
+   "t": "Techno Brothers",
+   "y": 2023,
+   "r": 3,
+   "date": "2023-05-26",
+   "url": "https://letterboxd.com/edostratocaster/film/techno-brothers/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/1/0/0/8/1/4/2/1008142-techno-brothers-0-600-0-900-crop.jpg?v=1b681c1cff"
+  },
+  {
+   "t": "Air",
+   "y": 2023,
+   "r": 2,
+   "date": "2023-04-26",
+   "url": "https://letterboxd.com/edostratocaster/film/air-2023/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/6/8/4/9/1/868491-air-0-600-0-900-crop.jpg?v=0dddab89c6"
+  },
+  {
+   "t": "Triangle of Sadness",
+   "y": 2022,
+   "r": 4,
+   "date": "2023-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/triangle-of-sadness/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/4/2/7/9/7/0/427970-triangle-of-sadness-0-600-0-900-crop.jpg?v=a9210ebfee"
+  },
+  {
+   "t": "Anatomy of a Fall",
+   "y": 2023,
+   "r": 3,
+   "date": "2023-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/anatomy-of-a-fall/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/2/2/0/9/3/822093-anatomy-of-a-fall-0-600-0-900-crop.jpg?v=4efab8aedc"
+  },
+  {
+   "t": "The Holdovers",
+   "y": 2023,
+   "r": 5,
+   "date": "2023-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/the-holdovers/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/7/5/5/5/6/4/755564-the-holdovers-0-600-0-900-crop.jpg?v=99bbdd8955"
+  },
+  {
+   "t": "Glass Onion",
+   "y": 2022,
+   "r": 4,
+   "date": "2023-01-26",
+   "url": "https://letterboxd.com/edostratocaster/film/glass-onion/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-0-600-0-900-crop.jpg?v=9c6cce161b"
+  },
+  {
+   "t": "Saltburn",
+   "y": 2023,
+   "r": 3,
+   "date": "2022-12-26",
+   "url": "https://letterboxd.com/edostratocaster/film/saltburn/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-600-0-900-crop.jpg?v=b58cbd3b08"
+  },
+  {
+   "t": "Fire of Love",
+   "y": 2022,
+   "r": 4.5,
+   "date": "2022-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/fire-of-love-2022/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/8/1/9/8/6/3/819863-fire-of-love-0-600-0-900-crop.jpg?v=d79f69426b"
+  },
+  {
+   "t": "Bullet Train",
+   "y": 2022,
+   "r": 3.5,
+   "date": "2022-02-26",
+   "url": "https://letterboxd.com/edostratocaster/film/bullet-train/",
+   "img": "https://a.ltrbxd.com/resized/film-poster/6/4/1/9/6/1/641961-bullet-train-0-600-0-900-crop.jpg?v=9245faa1ba"
   }
  ]
 }
